@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core" rendered="false">
+ 
+ <xp:this.beforePageLoad>
+   <![CDATA[#{javascript:eu.linqed.UploadHandler.process();}]]>   
+ </xp:this.beforePageLoad>
+ 
+</xp:view>

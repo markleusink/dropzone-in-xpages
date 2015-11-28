@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.4" replicaid="C1257F0B002EEC87" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="16e" sequence="32" unid="BC626E581079A735C1257F0B002F22B0">
+<created><datetime>20151128T093450,72+01</datetime></created>
+<modified><datetime>20151128T101029,88+01</datetime></modified>
+<revised><datetime>20151128T101029,86+01</datetime></revised>
+<lastaccessed><datetime>20151128T101029,86+01</datetime></lastaccessed>
+<addedtofile><datetime>20151128T093450,72+01</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Mark Leusink/O=LinQed</name></updatedby>
+<wassignedby><name>CN=Mark Leusink/O=LinQed</name></wassignedby>
+<item name="$TITLE"><text>myTheme.theme</text></item>
+<item name="$Flags"><text>34567Cg~`</text></item>
+<item name="$DesignerVersion"><text>8.5.3</text></item>
+
+
+<item name="$FileNames" sign="true"><text>myTheme.theme</text></item>
+<item name="$CSSFiles"><textlist><text>https://rawgit.com/enyo/dropzone/master/dist/dropzone.css</text></textlist></item></note>

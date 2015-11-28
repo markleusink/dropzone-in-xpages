@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core">
+
+<h3>Drop your files in the area below...</h3>
+
+<!-- note that any element with the 'dropzone' class automatically gets a dropzone: -->
+<!-- default behaviour of dropzone.js -->
+<xp:div id="myDropzone" styleClass="dropzone">
+
+</xp:div>
+
+	<xp:scriptBlock id="scriptBlock1">
+		<xp:this.value><![CDATA[
+		
+Dropzone.autoDiscover = false;
+	
+//create the dropzon
+var myDropzone = new Dropzone(".dropzone", {
+	url: "uploadHandler.xsp",
+    paramName: "uploadedFile", // The name that will be used to transfer the file
+    clickable:true,
+    uploadMultiple:false,
+    maxFilesize: 2 // MB
+});
+		]]></xp:this.value>
+	</xp:scriptBlock>
+
+</xp:view>

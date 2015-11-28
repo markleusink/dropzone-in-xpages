@@ -1,0 +1,14 @@
+
+<theme extends="oneuiv3.0.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="platform:/plugin/com.ibm.designer.domino.stylekits/schema/stylekit.xsd" >
+	
+	<resource>
+		<content-type>application/x-javascript</content-type>
+		<href>https://rawgit.com/enyo/dropzone/master/dist/dropzone.js</href>
+	</resource>
+	
+	<resource>
+		<content-type>text/css</content-type>
+		<href>https://rawgit.com/enyo/dropzone/master/dist/dropzone.css</href>
+	</resource>
+
+</theme>
