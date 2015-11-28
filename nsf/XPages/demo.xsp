@@ -4,7 +4,7 @@
 <h3>Drop your files in the area below...</h3>
 
 <!-- note that any element with the 'dropzone' class automatically gets a dropzone: -->
-<!-- default behaviour of dropzone.js -->
+<!-- default behaviour of dropzone.js, which I disabled with the 'autoDiscover' setting below -->
 <xp:div id="myDropzone" styleClass="dropzone">
 
 </xp:div>
